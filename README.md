@@ -18,6 +18,7 @@ memcached.use_sasl = 1
 复制到/ThinkPHP/Library/Think/Session/Driver 目录下
 
 3.编写配置文件
+
     'MEMCACHE_HOST'=>'1.ocs.aliyuncs.com', //连接地址
     'MEMCACHE_PORT'=>'11211',    //端口
     'MEMCACHE_USERNAME'=>'username',   //用户名
