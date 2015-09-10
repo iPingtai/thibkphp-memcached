@@ -1,6 +1,7 @@
 # thibkphp-memcached
 
 ThinkPHP Seesion的Memcached驱动支持阿里云OCS及集群
+
 1.检测环境是否安装memcached扩展 注意是memcached 不是 memcache
 php -m
 
