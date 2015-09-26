@@ -99,7 +99,7 @@ class Memcached{
 	public function gc($sessMaxLifeTime) {
 		return true;
 	}
-}
+}//End
 	 
 	 
 	 
