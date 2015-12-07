@@ -55,11 +55,10 @@ class Memcached{
     /**
      * 关闭Session 
      * @access public 
+	 * 感谢@muyuto 已经TP官方朋友的提出
      */
 	public function close() {
-		$this->gc(ini_get('session.gc_maxlifetime'));
 		$this->handle->close();
-		$this->handle       = null;
 		return true;
 	}
 
